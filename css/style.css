@@ -1,0 +1,569 @@
+/* *, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+    height: 2000px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ********************************************** */
+
+/* section conrad  */
+
+section.conrad {
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background-image: url('images/slide-1-fs.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.conrad header {
+    padding-top: 20px;
+}
+
+section.conrad .logo {
+    width: 50%;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.conrad nav {
+    width: 50%;
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.conrad-desc {
+    margin-top: 14%;
+}
+
+.conrad-desc p:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+.conrad-desc p:last-child:hover span {
+    display: inline-block;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+/* ! about  */
+
+.about {
+    width: 100%;
+    height: 460px;
+    padding: 70px 0 70px 0;
+}
+
+.about .creative, .about .awesome, .about .office {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    font-family: sans-serif;
+}
+
+.about .creative {
+    margin-left: 0;
+}
+
+.about .creative h2 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 3%;
+}
+
+.about .creative p {
+    margin-bottom: 7%;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.about .creative p:nth-of-type(1) span {
+    font-weight: bold;
+}
+
+.about .creative p:nth-of-type(1) {
+    color: #444;
+}
+
+.about .creative p:nth-of-type(2) {
+    color: #888;
+    line-height: 1.2;
+}
+
+.about .creative p:nth-of-type(3) a {
+    text-decoration: none;
+    color: #777;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+.about .creative p:nth-of-type(3) a:hover {
+    color: #000;
+}
+
+.about .awesome h3, .about .office h3 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: #666;
+}
+
+.about .awesome p, .about .office p {
+    color: #999;
+    font-size: 13px;
+}
+
+.about .awesome img, .about .office img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.about .awesome>div, .about .office>div {
+    overflow: hidden;
+    position: relative;
+}
+
+.about .awesome>div .overlay {
+    display: none;
+}
+
+.about .awesome>div:hover img, .about .office div:hover img {
+    transform: scale(1.2);
+}
+
+.about .awesome>div:hover .overlay, .about .office>div:hover .overlay {
+    display: block;
+}
+
+/*! folio  */
+
+.folio {
+    width: 100%;
+    height: 500px;
+    background-image: url('/images//slide-7-fw.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.folio-info {
+    padding-top: 20%;
+}
+
+.folio-info h4 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.folio-info p {
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.folio-info p.two {
+    display: none;
+}
+
+.folio-info span {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.folio-info button {
+    width: 200px;
+    padding: 15px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .4s ease-in-out;
+    outline: none;
+}
+
+.folio-info button:hover {
+    background: #000;
+    border: none;
+}
+
+/* ! solution  */
+
+.solution {
+    width: 100%;
+    height: 450px;
+    padding: 70px 0 70px 0;
+}
+
+.solution .tailor {
+    width: 50%;
+    float: left;
+}
+
+.solution .tailor h2 {
+    font-size: 2.5em;
+    margin-bottom: 3%;
+}
+
+.solution .tailor p:nth-of-type(1) {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+.solution .tailor p:nth-of-type(2) {
+    color: #999;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.solution .tailor p:nth-of-type(3) a {
+    color: #555;
+    text-decoration: none;
+}
+
+.solution .acordion {
+    width: 50%;
+    float: left;
+}
+
+.solution .acordion h3 {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.solution .acordion p {
+    background: #ddd;
+    color: #555;
+    padding: 10px;
+    display: none;
+}
+
+/* ! study */
+
+.study {
+    width: 100%;
+    height: 500px;
+    background: rgb(192, 26, 26);
+}
+
+.study .app {
+    width: 50%;
+    float: left;
+    height: 500px;
+    color: #fff;
+}
+
+.study .app h2 {
+    padding-top: 20%;
+}
+
+.study .app p {
+    margin-top: 3%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.study .app p:nth-of-type(1) {
+    margin-bottom: 5%;
+}
+
+.study .app p:nth-of-type(3) a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.study .download {
+    width: 50%;
+    float: right;
+    background: url('../images/hero-half-3.jpg');
+    height: 500px;
+}
+
+.study .download .number {
+    width: 50%;
+    height: 200px;
+    margin: 25% auto;
+    color: #fff;
+}
+
+.number .left {
+    width: 50%;
+    float: left;
+}
+
+.left p, .right p {
+    margin-bottom: 5%;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.number .right {
+    width: 50%;
+    float: left;
+}
+
+/* ! recent  */
+
+.recent {
+    width: 100%;
+    height: 700px;
+    padding: 80px 0 50px 0;
+}
+
+.recent .center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recent .center h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.recent .center nav a {
+    color: #888;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+/**  images recent  */
+
+/* left  */
+
+.all-imges {
+    width: 100%;
+}
+
+.recent .all-imges .left {
+    width: 50%;
+    float: left;
+}
+
+.bird {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.bird img:last-of-type {
+    height: 218px;
+}
+
+.bird img {
+    width: 100%;
+}
+
+.men {
+    width: 50%;
+    float: left;
+}
+
+.men img {
+    width: 100%;
+}
+
+/* right  */
+
+.recent .all-imges .right {
+    width: 50%;
+    float: left;
+}
+
+.right .open {
+    width: 100%;
+}
+
+.open img {
+    width: 100%;
+}
+
+.right .close {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right .close img:first-of-type {
+    width: 100%;
+}
+
+.right .close img:last-of-type {
+    width: 100%;
+}
+
+/* .all-imges .mix {
+    display: none;
+} */
+
+/* ! clients  */
+
+.clients {
+    width: 100%;
+    height: 300px;
+    clear: both;
+    padding-top: 150px;
+    background: rgb(155, 95, 211);
+    color: #fff;
+}
+
+.client-info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.client-header {
+    font-style: italic;
+}
+
+.client-info p {
+    font-size: 1.2em;
+}
+
+.client-info span {
+    color: #222;
+    font-size: 0.5em;
+}
+
+/* ! footer  */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #222;
+    color: #fff;
+    padding-top: 50px;
+    position: relative;
+}
+
+footer .container {
+    padding-bottom: 30px;
+}
+
+footer .footer-parts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.footer-parts .conrad a {
+    text-decoration: none;
+    display: block;
+    color: #888;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.footer-parts .conrad a:first-of-type {
+    padding-top: 20px;
+}
+
+.footer-parts .conrad p {
+    color: #888;
+}
+
+.footer-parts .conrad p:first-of-type {
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.footer-parts .conrad input {
+    background: none;
+    color: #fff;
+}
+
+.footer-parts .conrad input[type=email], .footer-parts .conrad input[type=text] {
+    border: 0;
+    border-bottom: 1px solid #888;
+    outline: none;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+}
+
+.footer-parts .conrad input[type=submit] {
+    padding: 10px 15px;
+    margin-top: 12px;
+    border-left: 1px solid #888;
+    border-bottom: 1px solid #888;
+    outline: none;
+}
+
+.footer-parts .conrad span {
+    font-size: 10px;
+    color: #888;
+}
+
+footer .footer {
+    width: 100%;
+    height: 70px;
+    background: #000;
+}
+
+.footer .container {
+    padding-top: 20px;
+}
+
+footer .footer .right {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+footer .footer .left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+footer .footer .right a {
+    text-decoration: none;
+    color: #888;
+    transition: all 0.5s ease-in-out;
+}
